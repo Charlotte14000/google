@@ -1,9 +1,99 @@
+body{
+    margin: 0px;
+    margin-bottom: -18px;
+}
+
+
 .haut
 {
-  list-style-type: none;
-  margin:0;
-  padding-left: 85%;
+  display: flex;
+  font-family: arial;
+  padding-left: 77%;
+
 }
 li {
   display: inline;
+  color:black;
+  font-family: arial;
+  font-size: 15px;
+}
+.element{
+  padding-right: 20px;
+}
+#connexion{
+  height: 30px;
+  width: 100px;
+  background-color: #4479fb;
+  color: white;
+  font-family: arial;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  padding-right: 20px;
+
+
+}
+.button{
+  color: red;
+}
+.logo_app{
+  padding:0
+}
+.main{
+display: table;
+margin : 150px auto;
+
+}
+.form{
+  box-shadow: 0px 1px 1px grey;
+  border:
+}
+
+.recherche_chance{
+  height: 20px;
+  width: 240px;
+  color: white;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: arial;
+  font-size: 15px;
+  cursor: pointer;
+}
+#recherche{
+
+  padding-right: 20px;
+
+}
+button{
+  background-color: #grey;
+}
+
+
+}
+footer{
+  background-color:#f2f2f2;
+  color:#b0b5ba;
+}
+p{
+  color:#b0b5ba;
+  margin-left:40px;
+}
+.pea  li{
+  color:#b0b5ba;
+  display:inline-block ;
+  padding-right: 40px;
+}
+.iccp li{
+  color:#b0b5ba;
+  display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+.iccp {
+  display: flex;
+    justify-content: flex-end;
+    margin-top: -40px;
+
 }
