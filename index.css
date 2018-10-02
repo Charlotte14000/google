@@ -1,0 +1,9 @@
+.haut
+{
+  list-style-type: none;
+  margin:0;
+  padding-left: 85%;
+}
+li {
+  display: inline;
+}
